@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>印象空间 - 怪盗团粉丝网站</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <a href="index.html" class="logo">Persona5</a>
+            <nav class="main-nav">
+                <a href="members.html" class="nav-item">成员</a>
+                <a href="palaces.html" class="nav-item">宫殿</a>
+                <a href="mementos.html" class="nav-item active">印象空间</a>
+                <a href="index.html" class="nav-item">时间线</a>
+                <a href="cooperators.html" class="nav-item">协力者</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="打开菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="members.html" class="nav-item">成员</a>
+            <a href="palaces.html" class="nav-item">宫殿</a>
+            <a href="mementos.html" class="nav-item active">印象空间</a>
+            <a href="index.html" class="nav-item">时间线</a>
+            <a href="cooperators.html" class="nav-item">协力者</a>
+        </nav>
+    </header>
+
+    <main class="mementos-main">
+        <section class="mementos-intro">
+            <h1>印象空间</h1>
+            <p class="intro-text">探索东京民众的集体潜意识深处</p>
+        </section>
+
+        <!-- 特殊机制说明 -->
+        <section class="mementos-features">
+            <div class="feature-card jose-card">
+                <div class="feature-icon">💐</div>
+                <h3>Jose商店</h3>
+                <p>在印象空间各层随机出现的神秘商人Jose。使用收集的花朵可以购买道具、交换特殊物品，还能获得各种增益效果。</p>
+            </div>
+            <div class="feature-card stamp-card">
+                <div class="feature-icon">🎫</div>
+                <h3>印章收集</h3>
+                <p>在印象空间各层隐藏着300+种印章。收集印章可以解锁Jose的特殊能力，获得更多奖励。</p>
+            </div>
+            <div class="feature-card willseed-card">
+                <div class="feature-icon">💎</div>
+                <h3>Will Seed</h3>
+                <p>每个宫殿都有3个Will Seed等待收集。集齐后可以获得特殊的强大饰品，提供独特能力加成。</p>
+            </div>
+        </section>
+
+        <!-- 层级卡片网格 -->
+        <section class="mementos-grid">
+            <!-- 求知之道 -->
+            <a href="mementos-qimranut.html" class="mementos-card" data-mementos="qimranut">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <span class="card-number">I</span>
+                    <h2 class="card-name">求知之道</h2>
+                    <p class="card-english">Path of Qimranut</p>
+                    <div class="card-stats">
+                        <span class="stat-level">Lv.2-13</span>
+                        <span class="stat-safety">安全等级 1-18%</span>
+                        <span class="stat-unlock">解锁：4/18</span>
+                    </div>
+                </div>
+                <div class="card-overlay">
+                    <span class="view-text">进入</span>
+                </div>
+            </a>
+
+            <!-- 明惠之道 -->
+            <a href="mementos-akarana.html" class="mementos-card" data-mementos="akarana">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <span class="card-number">II</span>
+                    <h2 class="card-name">明惠之道</h2>
+                    <p class="card-english">Path of Akarana</p>
+                    <div class="card-stats">
+                        <span class="stat-level">Lv.14-23</span>
+                        <span class="stat-safety">安全等级 19-36%</span>
+                        <span class="stat-unlock">解锁：5/18</span>
+                    </div>
+                </div>
+                <div class="card-overlay">
+                    <span class="view-text">进入</span>
+                </div>
+            </a>
+
+            <!-- 廓落之道 -->
+            <a href="mementos-chemdah.html" class="mementos-card" data-mementos="chemdah">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <span class="card-number">III</span>
+                    <h2 class="card-name">廓落之道</h2>
+                    <p class="card-english">Path of Chemdah</p>
+                    <div class="card-stats">
+                        <span class="stat-level">Lv.24-33</span>
+                        <span class="stat-safety">安全等级 37-54%</span>
+                        <span class="stat-unlock">解锁：6/5</span>
+                    </div>
+                </div>
+                <div class="card-overlay">
+                    <span class="view-text">进入</span>
+                </div>
+            </a>
+
+            <!-- 和敬之道 -->
+            <a href="mementos-kaitul.html" class="mementos-card" data-mementos="kaitul">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <span class="card-number">IV</span>
+                    <h2 class="card-name">和敬之道</h2>
+                    <p class="card-english">Path of Kaitul</p>
+                    <div class="card-stats">
+                        <span class="stat-level">Lv.34-43</span>
+                        <span class="stat-safety">安全等级 55-72%</span>
+                        <span class="stat-unlock">解锁：7/26</span>
+                    </div>
+                </div>
+                <div class="card-overlay">
+                    <span class="view-text">进入</span>
+                </div>
+            </a>
+
+            <!-- 恕免之道 -->
+            <a href="mementos-akzeriyyuth.html" class="mementos-card" data-mementos="akzeriyyuth">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <span class="card-number">V</span>
+                    <h2 class="card-name">恕免之道</h2>
+                    <p class="card-english">Path of Akzeriyyuth</p>
+                    <div class="card-stats">
+                        <span class="stat-level">Lv.44-53</span>
+                        <span class="stat-safety">安全等级 73-84%</span>
+                        <span class="stat-unlock">解锁：8/22</span>
+                    </div>
+                </div>
+                <div class="card-overlay">
+                    <span class="view-text">进入</span>
+                </div>
+            </a>
+
+            <!-- 游兴之道 -->
+            <a href="mementos-adyeshach.html" class="mementos-card" data-mementos="adyeshach">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <span class="card-number">VI</span>
+                    <h2 class="card-name">游兴之道</h2>
+                    <p class="card-english">Path of Adyeshach</p>
+                    <div class="card-stats">
+                        <span class="stat-level">Lv.54-63</span>
+                        <span class="stat-safety">安全等级 85-94%</span>
+                        <span class="stat-unlock">解锁：10/12</span>
+                    </div>
+                </div>
+                <div class="card-overlay">
+                    <span class="view-text">进入</span>
+                </div>
+            </a>
+
+            <!-- 苦恼之道 -->
+            <a href="mementos-sheriruth.html" class="mementos-card" data-mementos="sheriruth">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <span class="card-number">VII</span>
+                    <h2 class="card-name">苦恼之道</h2>
+                    <p class="card-english">Path of Sheriruth</p>
+                    <div class="card-stats">
+                        <span class="stat-level">Lv.64-74</span>
+                        <span class="stat-safety">安全等级 95-100%</span>
+                        <span class="stat-unlock">解锁：11/18</span>
+                    </div>
+                </div>
+                <div class="card-overlay">
+                    <span class="view-text">进入</span>
+                </div>
+            </a>
+
+            <!-- 感动之道 (P5R追加) -->
+            <a href="mementos-iweleh.html" class="mementos-card mementos-p5r" data-mementos="iweleh">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <span class="card-number">VIII</span>
+                    <h2 class="card-name">感动之道</h2>
+                    <p class="card-english">Path of Iweleh</p>
+                    <span class="p5r-badge">P5R追加</span>
+                    <div class="card-stats">
+                        <span class="stat-level">Lv.72-85+</span>
+                        <span class="stat-safety">P5R第三学期</span>
+                        <span class="stat-unlock">解锁：1/9</span>
+                    </div>
+                </div>
+                <div class="card-overlay">
+                    <span class="view-text">进入</span>
+                </div>
+            </a>
+
+            <!-- 印象空间深处 -->
+            <a href="mementos-depths.html" class="mementos-card mementos-depth" data-mementos="depths">
+                <div class="card-bg"></div>
+                <div class="card-content">
+                    <span class="card-number">∞</span>
+                    <h2 class="card-name">怠惰之监狱</h2>
+                    <p class="card-english">（印象空间深处）</p>
+                    <div class="card-stats">
+                        <span class="stat-level">Lv.80+</span>
+                        <span class="stat-safety">最终区域</span>
+                    </div>
+                </div>
+                <div class="card-overlay">
+                    <span class="view-text">进入</span>
+                </div>
+            </a>
+        </section>
+
+        <!-- 隐藏BOSS入口 -->
+        <section class="hidden-boss-section">
+            <h2 class="section-title">
+                <span class="title-bg">SECRET</span>
+                <span class="title-text">隐藏挑战</span>
+            </h2>
+            <p class="hidden-boss-intro">在印象空间的某处，有着未知的挑战者...</p>
+            <div class="hidden-boss-grid">
+                <a href="hidden-boss-jose.html" class="hidden-boss-card">
+                    <div class="boss-arcana">XVII</div>
+                    <div class="boss-info">
+                        <h3 class="boss-name">约瑟</h3>
+                        <p class="boss-title">星 · 印象空间的商人</p>
+                        <p class="boss-desc">神秘的印象空间商人，真正的实力深不可测</p>
+                    </div>
+                    <span class="hidden-boss-btn">挑战</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>此网站由三岛由辉创建和维护 | 怪盗团粉丝网站 202X</p>
+    </footer>
+
+    <!-- 背景音乐 -->
+    <audio id="bgMusic" loop>
+        <source src="assets/Mementos.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- 音乐控制按钮 -->
+    <button class="music-toggle" id="musicToggle" aria-label="切换音乐">
+        <span class="music-icon">🎵</span>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

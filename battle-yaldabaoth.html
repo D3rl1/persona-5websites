@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大决战 - 亚尔达鲍特 - 怪盗团粉丝网站</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="battle-page yaldabaoth-battle">
+    <header class="main-header">
+        <div class="header-content">
+            <a href="index.html" class="logo">Persona5</a>
+            <nav class="main-nav">
+                <a href="members.html" class="nav-item">成员</a>
+                <a href="palaces.html" class="nav-item">宫殿</a>
+                <a href="mementos.html" class="nav-item">印象空间</a>
+                <a href="index.html" class="nav-item active">时间线</a>
+                <a href="cooperators.html" class="nav-item">协力者</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="打开菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="members.html" class="nav-item">成员</a>
+            <a href="palaces.html" class="nav-item">宫殿</a>
+            <a href="mementos.html" class="nav-item">印象空间</a>
+            <a href="index.html" class="nav-item active">时间线</a>
+            <a href="cooperators.html" class="nav-item">协力者</a>
+        </nav>
+    </header>
+
+    <main class="members-main">
+        <!-- 战斗封面 -->
+        <section class="battle-hero">
+            <div class="hero-bg"></div>
+            <div class="hero-content">
+                <div class="hero-icon">
+                    <span>⚔️</span>
+                </div>
+                <h1 class="hero-title">大决战</h1>
+                <p class="hero-subtitle">与亚尔达鲍特的对决</p>
+                <p class="hero-desc">诸神的黄昏，命运的时刻</p>
+            </div>
+        </section>
+
+        <!-- 敌人介绍 -->
+        <section class="character-info">
+            <div class="info-section">
+                <h2 class="section-title">
+                    <span class="title-bg">ENEMY</span>
+                    <span class="title-text">亚尔达鲍特</span>
+                </h2>
+                <div class="enemy-profile">
+                    <div class="enemy-visual">
+                        <div class="enemy-placeholder">
+                            <span>YALDABAOH</span>
+                            <p>虚伪之神</p>
+                        </div>
+                    </div>
+                    <div class="enemy-details">
+                        <h3 class="enemy-name">亚尔达鲍特 Yaldabaoth</h3>
+                        <p class="enemy-title">虚伪之神 · 圣杯的真身</p>
+                        <p class="enemy-desc">
+                            亚尔达鲍特是圣杯的神形态，代表人类集体无意识中渴望被控制、被束缚的愿望。
+                            它是整个印象空间的真正主人，企图将人类囚禁在"幸福"的牢笼中。
+                        </p>
+                        <div class="enemy-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">阿尔卡纳</span>
+                                <span class="stat-value">愚者（逆位）</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">弱点</span>
+                                <span class="stat-value">无</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">推荐等级</span>
+                                <span class="stat-value">Lv.85+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 战斗阶段 -->
+            <div class="info-section">
+                <h2 class="section-title">
+                    <span class="title-bg">BATTLE</span>
+                    <span class="title-text">战斗阶段</span>
+                </h2>
+                <div class="battle-phases-content">
+                    <div class="battle-phase">
+                        <div class="phase-header">
+                            <span class="phase-number">I</span>
+                            <h3 class="phase-title">第一阶段：圣杯装甲</h3>
+                        </div>
+                        <div class="phase-details">
+                            <p>亚尔达鲍特被圣杯装甲保护，需要先破坏装甲才能对其本体造成伤害。</p>
+                            <ul class="phase-tips">
+                                <li>优先攻击左右两侧的装甲部件</li>
+                                <li>装甲被破坏后会暂时暴露核心</li>
+                                <li>注意躲避"神之雷"技能</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="battle-phase">
+                        <div class="phase-header">
+                            <span class="phase-number">II</span>
+                            <h3 class="phase-title">第二阶段：审判之光</h3>
+                        </div>
+                        <div class="phase-details">
+                            <p>装甲被破坏后，亚尔达鲍特开始使用更强的光属性攻击。</p>
+                            <ul class="phase-tips">
+                                <li>装备光属性抗性的人格面具</li>
+                                <li>"裁决之剑"会造成大量伤害，注意防御</li>
+                                <li>保持队伍血量健康</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="battle-phase">
+                        <div class="phase-header">
+                            <span class="phase-number">III</span>
+                            <h3 class="phase-title">第三阶段：诸神黄昏</h3>
+                        </div>
+                        <div class="phase-details">
+                            <p>亚尔达鲍特进入最终形态，使用最强大的技能。</p>
+                            <ul class="phase-tips">
+                                <li>"大灭"技能会强制扣除大量HP</li>
+                                <li>使用"总攻击"后会造成大量伤害</li>
+                                <li>这是最后的战斗，全力以赴！</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 攻略要点 -->
+            <div class="info-section">
+                <h2 class="section-title">
+                    <span class="title-bg">STRATEGY</span>
+                    <span class="title-text">攻略要点</span>
+                </h2>
+                <div class="strategy-content">
+                    <div class="strategy-item">
+                        <span class="strategy-icon">👥</span>
+                        <div class="strategy-details">
+                            <h4>队伍配置</h4>
+                            <p>推荐队伍：Joker、Morgana、Makoto、Haru/Ann。Morgana的恢复技能和Makoto的防御Buff非常重要。</p>
+                        </div>
+                    </div>
+                    <div class="strategy-item">
+                        <span class="strategy-icon">🎭</span>
+                        <div class="strategy-details">
+                            <h4>人格面具</h4>
+                            <p>准备光属性抗性或无效的人格面具。推荐使用Yoshitsune、Helel、Satanael等高等级人格面具。</p>
+                        </div>
+                    </div>
+                    <div class="strategy-item">
+                        <span class="strategy-icon">💊</span>
+                        <div class="strategy-details">
+                            <h4>道具准备</h4>
+                            <p>携带充足的SP恢复道具、复活道具和全恢复道具。Chakra Restore和Somatomat是必备品。</p>
+                        </div>
+                    </div>
+                    <div class="strategy-item">
+                        <span class="strategy-icon">⚡</span>
+                        <div class="strategy-details">
+                            <h4>技能推荐</h4>
+                            <p>使用Debilitate降低敌人攻防，Heat Riser提升我方能力。Charge/Concentrate后的强力技能是主要输出手段。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 剧情提示 -->
+            <div class="info-section">
+                <h2 class="section-title">
+                    <span class="title-bg">STORY</span>
+                    <span class="title-text">剧情背景</span>
+                </h2>
+                <div class="story-content">
+                    <p class="story-text">
+                        亚尔达鲍特是由人类集体无意识中"渴望被束缚"的愿望所诞生的虚伪之神。
+                        它通过圣杯的形态操控着整个印象空间，企图创造一个没有痛苦、但也没有自由的世界。
+                    </p>
+                    <p class="story-text">
+                        "你们人类渴望的，不就是一个不用承担责任的世界吗？"
+                    </p>
+                    <p class="story-text highlight">
+                        这是一场关于自由意志的最终决战——拒绝被操控，选择自己的道路，这就是怪盗团的答案。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 返回按钮 -->
+        <div class="back-to-members">
+            <a href="index.html" class="back-btn">
+                <span class="arrow">←</span>
+                <span>返回时间线</span>
+            </a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>此网站由三岛由辉创建和维护 | 怪盗团粉丝网站 202X</p>
+    </footer>
+
+    <!-- 背景音乐 -->
+    <audio id="bgMusic" loop>
+        <source src="assets/Yaldabaoth.wav" type="audio/wav">
+    </audio>
+
+    <!-- 音乐控制按钮 -->
+    <button class="music-toggle" id="musicToggle" aria-label="切换音乐">
+        <span class="music-icon">🎵</span>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

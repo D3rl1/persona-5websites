@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>明惠之道 - 印象空间 - 怪盗团粉丝网站</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="mementos-page" data-mementos="akarana">
+    <header class="main-header">
+        <div class="header-content">
+            <a href="index.html" class="logo">Persona5</a>
+            <nav class="main-nav">
+                <a href="members.html" class="nav-item">成员</a>
+                <a href="palaces.html" class="nav-item">宫殿</a>
+                <a href="mementos.html" class="nav-item active">印象空间</a>
+                <a href="index.html" class="nav-item">时间线</a>
+                <a href="cooperators.html" class="nav-item">协力者</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="打开菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="members.html" class="nav-item">成员</a>
+            <a href="palaces.html" class="nav-item">宫殿</a>
+            <a href="mementos.html" class="nav-item active">印象空间</a>
+            <a href="index.html" class="nav-item">时间线</a>
+            <a href="cooperators.html" class="nav-item">协力者</a>
+        </nav>
+    </header>
+
+    <section class="mementos-hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <span>AKARANA</span>
+                    <p class="placeholder-hint">明惠之道</p>
+                </div>
+            </div>
+            <div class="hero-info">
+                <span class="hero-number">II</span>
+                <h1 class="hero-name">明惠之道</h1>
+                <p class="hero-english">Path of Akarana</p>
+                <p class="hero-period">推荐等级：Lv.14-23</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mementos-info">
+        <div class="info-section">
+            <h2 class="section-title">
+                <span class="title-bg">OVERVIEW</span>
+                <span class="title-text">层级概览</span>
+            </h2>
+            <div class="info-content">
+                <div class="info-item">
+                    <span class="info-label">层级名称</span>
+                    <span class="info-value">明惠之道</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">英文名称</span>
+                    <span class="info-value">Path of Akarana</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">推荐等级</span>
+                    <span class="info-value">Lv.14-23</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">安全等级</span>
+                    <span class="info-value">19-36%</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">解锁条件</span>
+                    <span class="info-value">5/18 鸭志田殿堂完成后</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2 class="section-title">
+                <span class="title-bg">ENEMIES</span>
+                <span class="title-text">敌人类型</span>
+            </h2>
+            <div class="enemies-content">
+                <p class="story-text">
+                    明惠之道的敌人开始变得更有挑战性，需要善用人格面具的弱点攻击：
+                </p>
+                <ul class="enemies-list">
+                    <li><strong>女武神</strong> (Valkyrie) - 弱点：电、念</li>
+                    <li><strong>麒麟</strong> (Kirin) - 弱点：冰</li>
+                    <li><strong>独角兽</strong> (Unicorn) - 弱点：火</li>
+                    <li><strong>地灵</strong> (Kelpie) - 弱点：电</li>
+                    <li><strong>猫妖精</strong> (Cait Sith) - 弱点：火</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2 class="section-title">
+                <span class="title-bg">TIPS</span>
+                <span class="title-text">攻略要点</span>
+            </h2>
+            <div class="tips-content">
+                <ul class="tips-list">
+                    <li>敌人等级开始提升，注意保持队伍等级跟上</li>
+                    <li>建议在进入前准备好冰属性和电属性的人格面具</li>
+                    <li>本层会出现更多宝魔，是获取金钱的好地方</li>
+                    <li>注意安全等级的变化，适时返回保存进度</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="back-to-mementos">
+        <a href="mementos.html" class="back-btn">
+            <span class="arrow">←</span>
+            <span>返回印象空间</span>
+        </a>
+    </div>
+
+    <footer class="main-footer">
+        <p>此网站由三岛由辉创建和维护 | 怪盗团粉丝网站 202X</p>
+    </footer>
+
+    <!-- 背景音乐 -->
+    <audio id="bgMusic" loop>
+        <source src="assets/Mementos.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- 音乐控制按钮 -->
+    <button class="music-toggle" id="musicToggle" aria-label="切换音乐">
+        <span class="music-icon">🎵</span>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

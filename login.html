@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>怪盗团粉丝网站 - 登录</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+    <div class="login-overlay"></div>
+
+    <div class="login-container">
+        <!-- 装饰图片 -->
+        <div class="login-decoration">
+            <img src="assets/images/BCT_P_BC9999.png" alt="Phantom Thieves">
+        </div>
+        <!-- 游戏标题 -->
+        <div class="game-title">
+            <h1>女神异闻录5</h1>
+            <p class="game-subtitle">PERSONA 5</p>
+        </div>
+
+        <div class="login-header">
+            <div class="logo-container">
+                <span class="logo-p">P</span>
+                <span class="logo-h">h</span>
+                <span class="logo-a1">a</span>
+                <span class="logo-n">n</span>
+                <span class="logo-t">t</span>
+                <span class="logo-o">o</span>
+                <span class="logo-m">m</span>
+            </div>
+            <h1 class="site-title">怪盗团粉丝网站</h1>
+            <p class="site-subtitle">以改心为名的义贼</p>
+        </div>
+
+        <form class="login-form" id="loginForm">
+            <div class="form-group">
+                <label for="phoneInput">输入你的手机号码</label>
+                <input type="text" id="phoneInput" placeholder="输入任意数字即可进入" maxlength="11" autocomplete="off">
+            </div>
+            <button type="submit" class="login-btn">
+                <span>进入网站</span>
+            </button>
+        </form>
+
+        <div class="login-footer">
+            <p>— 三岛由辉 管理 —</p>
+        </div>
+    </div>
+
+    <!-- 认证动画遮罩 -->
+    <div class="auth-overlay" id="authOverlay">
+        <div class="auth-animation">
+            <div class="auth-text">
+                <span>认</span><span>证</span><span>中</span>
+                <span class="dots">...</span>
+            </div>
+            <div class="auth-lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 背景音乐 -->
+    <audio id="bgMusic" loop>
+        <source src="assets/アトラスサウンドチーム - Layer Cake.flac" type="audio/flac">
+    </audio>
+
+    <!-- 音乐控制按钮 -->
+    <button class="music-toggle" id="musicToggle" aria-label="切换音乐">
+        <span class="music-icon">🎵</span>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

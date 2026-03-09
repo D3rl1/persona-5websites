@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>怪盗团粉丝网站 - 舆论时间线</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 时间线背景图片 -->
+    <div class="timeline-bg-image"></div>
+    <header class="main-header">
+        <div class="header-content">
+            <a href="index.html" class="logo">Persona5</a>
+            <nav class="main-nav">
+                <a href="members.html" class="nav-item">成员</a>
+                <a href="palaces.html" class="nav-item">宫殿</a>
+                <a href="mementos.html" class="nav-item">印象空间</a>
+                <a href="index.html" class="nav-item active">时间线</a>
+                <a href="cooperators.html" class="nav-item">协力者</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="打开菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="members.html" class="nav-item">成员</a>
+            <a href="palaces.html" class="nav-item">宫殿</a>
+            <a href="mementos.html" class="nav-item">印象空间</a>
+            <a href="index.html" class="nav-item active">时间线</a>
+            <a href="cooperators.html" class="nav-item">协力者</a>
+        </nav>
+    </header>
+
+    <!-- 怪盗团之信展示 -->
+    <section class="phantom-letter-section">
+        <div class="letter-decoration">
+            <img src="assets/images/BCT_P_BC9999.png" alt="Phantom Thieves">
+        </div>
+        <div class="letter-container">
+            <div class="letter-background"></div>
+            <div class="letter-content" id="phantomLetter">
+                <p class="letter-greeting">致　所有被压抑的人们</p>
+                <div class="letter-body">
+                    <p>我们是<span class="highlight">怪盗团</span>。</p>
+                    <p>我们不是恐怖分子，也不是罪犯。</p>
+                    <p>我们只是<span class="highlight">偷取</span>那些扭曲心灵的<span class="highlight">宝物</span>。</p>
+                    <p>如果你有想要改变的愿望，</p>
+                    <p>就在这里留下你的声音。</p>
+                </div>
+                <p class="letter-signature">— 怪盗团 —</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 舆论时间线 -->
+    <main class="timeline-main">
+        <div class="timeline-header">
+            <h1>舆论时间线</h1>
+            <p class="timeline-intro">记录着怪盗团活动的每一天，以及人们的反应</p>
+        </div>
+
+        <!-- 怪盗团理念介绍 -->
+        <section class="manifesto-section">
+            <div class="manifesto-container">
+                <div class="manifesto-header">
+                    <span class="manifesto-icon">🎭</span>
+                    <h2 class="manifesto-title">PHANTOM THIEVES</h2>
+                    <p class="manifesto-subtitle">怪盗团的理念与使命</p>
+                </div>
+
+                <div class="manifesto-content">
+                    <div class="manifesto-block">
+                        <h3 class="block-title">
+                            <span class="title-number">01</span>
+                            <span class="title-text">怪盗团是什么</span>
+                        </h3>
+                        <p class="block-text">
+                            我们是<span class="highlight-text">心之怪盗团</span>——一群被社会压抑、却选择反抗命运的高中生。我们潜入人们内心深处的"殿堂"，盗取扭曲心灵的"宝物"，让那些法律无法制裁的恶人<span class="highlight-text">改心</span>。
+                        </p>
+                    </div>
+
+                    <div class="manifesto-block">
+                        <h3 class="block-title">
+                            <span class="title-number">02</span>
+                            <span class="title-text">核心理念</span>
+                        </h3>
+                        <div class="concept-list">
+                            <div class="concept-item">
+                                <span class="concept-icon">💎</span>
+                                <div class="concept-content">
+                                    <strong>夺回被夺走的东西</strong>
+                                    <p>我们曾被人夺走尊严、自由、希望。现在，我们要亲手夺回来。</p>
+                                </div>
+                            </div>
+                            <div class="concept-item">
+                                <span class="concept-icon">🔄</span>
+                                <div class="concept-content">
+                                    <strong>改心的真义</strong>
+                                    <p>不是强制洗脑，而是唤醒沉睡的良知。让罪人直面自己的罪行。</p>
+                                </div>
+                            </div>
+                            <div class="concept-item">
+                                <span class="concept-icon">⚖️</span>
+                                <div class="concept-content">
+                                    <strong>正义的定义</strong>
+                                    <p>正义不是法律条文。当法律保护恶人时，真正的正义需要我们自己来守护。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="manifesto-block">
+                        <h3 class="block-title">
+                            <span class="title-number">03</span>
+                            <span class="title-text">行动准则</span>
+                        </h3>
+                        <div class="rules-grid">
+                            <div class="rule-item">
+                                <span class="rule-number">I</span>
+                                <p>只对目标人物进行改心</p>
+                            </div>
+                            <div class="rule-item">
+                                <span class="rule-number">II</span>
+                                <p>绝不伤害无辜之人</p>
+                            </div>
+                            <div class="rule-item">
+                                <span class="rule-number">III</span>
+                                <p>不接受金钱报酬</p>
+                            </div>
+                            <div class="rule-item">
+                                <span class="rule-number">IV</span>
+                                <p>必须获得目标的确凿证据</p>
+                            </div>
+                            <div class="rule-item">
+                                <span class="rule-number">V</span>
+                                <p>相信自己的判断，不被舆论左右</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="manifesto-block">
+                        <h3 class="block-title">
+                            <span class="title-number">04</span>
+                            <span class="title-text">象征意义</span>
+                        </h3>
+                        <div class="symbol-grid">
+                            <div class="symbol-item">
+                                <div class="symbol-icon">🎭</div>
+                                <h4>面具</h4>
+                                <p>每个人都戴着面具。我们摘下它，直面真实的自己。</p>
+                            </div>
+                            <div class="symbol-item">
+                                <div class="symbol-icon">🦹</div>
+                                <h4>怪盗</h4>
+                                <p>不是罪犯，是现代的义贼。盗取的不是财物，是扭曲的心灵。</p>
+                            </div>
+                            <div class="symbol-item">
+                                <div class="symbol-icon">👤</div>
+                                <h4>人格面具</h4>
+                                <p>我们心中另一个自己——反抗压抑的力量源泉。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="manifesto-block manifesto-final">
+                        <h3 class="block-title">
+                            <span class="title-number">05</span>
+                            <span class="title-text">历史使命</span>
+                        </h3>
+                        <div class="mission-content">
+                            <p class="mission-main">
+                                唤醒沉睡的人们，<br>
+                                让每个人都能<span class="highlight-text">勇敢说不</span>。
+                            </p>
+                            <p class="mission-sub">
+                                我们不是英雄，也不是救世主。<br>
+                                我们只是选择不再沉默的普通人。<br>
+                                如果每个人都能找到自己的声音，<br>
+                                那就是真正的<span class="highlight-text">改心</span>。
+                            </p>
+                            <div class="mission-quote">
+                                <p>"Take Your Heart"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="timeline-container">
+
+            <!-- 鸭志田事件 -->
+            <section class="timeline-era" data-era="kamoshida">
+                <div class="era-header">
+                    <div class="era-date">4月</div>
+                    <h2 class="era-title">鸭志田事件</h2>
+                    <div class="era-status status-negative">舆论：负面</div>
+                </div>
+
+                <div class="timeline-posts">
+                    <article class="post post-negative">
+                        <div class="post-header">
+                            <span class="post-avatar">👤</span>
+                            <span class="post-user">学生A</span>
+                            <span class="post-time">4月12日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>什么怪盗团预告信？鸭志田老师怎么会认罪？肯定是恶作剧吧</p>
+                            <div class="post-tags">
+                                <span class="tag tag-negative">#可疑</span>
+                                <span class="tag">#秀尽学园</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 8</span>
+                            <span>💬 15</span>
+                            <span>🔄 3</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-negative">
+                        <div class="post-header">
+                            <span class="post-avatar">👨‍👩‍👦</span>
+                            <span class="post-user">担心家长B</span>
+                            <span class="post-time">4月14日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>听说学校里有什么怪盗团？现在的孩子怎么会被这种东西影响？学校应该管管！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-negative">#教育问题</span>
+                                <span class="tag tag-negative">#担心</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 23</span>
+                            <span>💬 45</span>
+                            <span>🔄 12</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-negative">
+                        <div class="post-header">
+                            <span class="post-avatar">👤</span>
+                            <span class="post-user">匿名用户</span>
+                            <span class="post-time">4月15日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>这个什么怪盗团？什么改心？完全是诈骗吧</p>
+                            <div class="post-tags">
+                                <span class="tag tag-negative">#诈骗</span>
+                                <span class="tag tag-negative">#妄想</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 12</span>
+                            <span>💬 34</span>
+                            <span>🔄 5</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-neutral">
+                        <div class="post-header">
+                            <span class="post-avatar">📺</span>
+                            <span class="post-user">新闻速报</span>
+                            <span class="post-time">4月15日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>【速报】秀尽学园鸭志田教师突然召开记者会，承认所有虐待指控。校方表示震惊...</p>
+                            <div class="post-tags">
+                                <span class="tag">#新闻</span>
+                                <span class="tag tag-neutral">#疑惑</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 234</span>
+                            <span>💬 567</span>
+                            <span>🔄 189</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-neutral">
+                        <div class="post-header">
+                            <span class="post-avatar">👤</span>
+                            <span class="post-user">秀英z</span>
+                            <span class="post-time">4月16日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>听说鸭志田老师突然认罪了？虽然他确实是个人渣...但这个怪盗团不会是威胁勒索吧？不过...那些受害者终于得到正义了？</p>
+                            <div class="post-tags">
+                                <span class="tag tag-neutral">#半信半疑</span>
+                                <span class="tag">#秀尽学园</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 45</span>
+                            <span>💬 67</span>
+                            <span>🔄 23</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 斑目事件 -->
+            <section class="timeline-era" data-era="madarame">
+                <div class="era-header">
+                    <div class="era-date">5-6月</div>
+                    <h2 class="era-title">斑目事件</h2>
+                    <div class="era-status status-mixed">舆论：转向</div>
+                </div>
+
+                <div class="timeline-posts">
+                    <article class="post post-negative">
+                        <div class="post-header">
+                            <span class="post-avatar">🎨</span>
+                            <span class="post-user">艺术爱好者</span>
+                            <span class="post-time">5月20日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>斑目一斋堂可是国宝级画家！怪盗团居然敢对他出手？太过分了吧！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-negative">#反对</span>
+                                <span class="tag">#艺术界</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 78</span>
+                            <span>💬 56</span>
+                            <span>🔄 23</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-neutral">
+                        <div class="post-header">
+                            <span class="post-avatar">🎨</span>
+                            <span class="post-user">美术生A</span>
+                            <span class="post-time">6月5日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>斑目老师的事我听说了...虽然没有证据，但怪盗团是不是真的能让人改心？如果他们能制裁那些法律管不了的恶人...</p>
+                            <div class="post-tags">
+                                <span class="tag">#艺术家</span>
+                                <span class="tag tag-neutral">#半信半疑</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 89</span>
+                            <span>💬 112</span>
+                            <span>🔄 45</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">😢</span>
+                            <span class="post-user">斑目被害弟子</span>
+                            <span class="post-time">6月6日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>终于可以说出来了...斑目老师偷用了我们所有弟子的作品！"Sayuri"的真迹是我画的...怪盗团帮我们说出了真相！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#真相大白</span>
+                                <span class="tag tag-positive">#感谢</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 456</span>
+                            <span>💬 234</span>
+                            <span>🔄 167</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">⭐</span>
+                            <span class="post-user">正义使者</span>
+                            <span class="post-time">6月8日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>等一下！斑目一斋堂的作品被盗用的事是真实的！那些被他伤害的弟子们终于得到正义了！怪盗团干得漂亮！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#支持</span>
+                                <span class="tag">#正义</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 234</span>
+                            <span>💬 156</span>
+                            <span>🔄 89</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">⚖️</span>
+                            <span class="post-user">法律系学生</span>
+                            <span class="post-time">6月9日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>版权盗窃、剥削弟子...斑目的罪行终于被揭露了。虽然改心在法律上是灰色地带，但真相确实需要被曝光。</p>
+                            <div class="post-tags">
+                                <span class="tag">#法律</span>
+                                <span class="tag tag-neutral">#灰色地带</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 178</span>
+                            <span>💬 89</span>
+                            <span>🔄 56</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 金城事件 -->
+            <section class="timeline-era" data-era="kaneshiro">
+                <div class="era-header">
+                    <div class="era-date">6-7月</div>
+                    <h2 class="era-title">金城事件</h2>
+                    <div class="era-status status-positive">舆论：支持增加</div>
+                </div>
+
+                <div class="timeline-posts">
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">💰</span>
+                            <span class="post-user">高利贷受害者A</span>
+                            <span class="post-time">7月5日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>终于有人站出来对付金城了！那些地下钱庄害了多少人啊！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#支持</span>
+                                <span class="tag">#正义</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 234</span>
+                            <span>💬 123</span>
+                            <span>🔄 89</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">💰</span>
+                            <span class="post-user">受害者家属</span>
+                            <span class="post-time">7月10日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>金城那个高利贷...我弟弟差点被他逼死。感谢怪盗团！你们是我们家的恩人！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#感谢</span>
+                                <span class="tag tag-positive">#英雄</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 567</span>
+                            <span>💬 234</span>
+                            <span>🔄 178</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-neutral">
+                        <div class="post-header">
+                            <span class="post-avatar">👨‍💼</span>
+                            <span class="post-user">普通市民</span>
+                            <span class="post-time">7月11日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>说实话，高利贷确实害人不浅，但让怪盗团来当法官...这合适吗？不过看到那些受害者得到解脱，我...</p>
+                            <div class="post-tags">
+                                <span class="tag tag-neutral">#矛盾</span>
+                                <span class="tag">#讨论</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 145</span>
+                            <span>💬 89</span>
+                            <span>🔄 45</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">👤</span>
+                            <span class="post-user">秀英z</span>
+                            <span class="post-time">7月12日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>我开始相信怪盗团了...他们真的是在帮助那些法律无法保护的人。现代的义贼？</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#支持</span>
+                                <span class="tag tag-positive">#转变</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 345</span>
+                            <span>💬 167</span>
+                            <span>🔄 123</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 冴エ事件 -->
+            <section class="timeline-era" data-era="sae">
+                <div class="era-header">
+                    <div class="era-date">11月</div>
+                    <h2 class="era-title">检察官事件</h2>
+                    <div class="era-status status-mixed">舆论：分歧</div>
+                </div>
+
+                <div class="timeline-posts">
+                    <article class="post post-negative">
+                        <div class="post-header">
+                            <span class="post-avatar">⚖️</span>
+                            <span class="post-user">守法公民</span>
+                            <span class="post-time">11月18日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>怪盗团这次太过分了吧？居然对检察官出手？这已经不是改心了，是犯罪！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-negative">#反对</span>
+                                <span class="tag">#法治</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 123</span>
+                            <span>💬 89</span>
+                            <span>🔄 45</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-neutral">
+                        <div class="post-header">
+                            <span class="post-avatar">👔</span>
+                            <span class="post-user">法律专家</span>
+                            <span class="post-time">11月18日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>检察官是司法公正的守护者。如果连检察官都可以被"改心"，那我们的司法体系还有什么意义？</p>
+                            <div class="post-tags">
+                                <span class="tag tag-negative">#司法</span>
+                                <span class="tag">#讨论</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 89</span>
+                            <span>💬 156</span>
+                            <span>🔄 34</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-negative">
+                        <div class="post-header">
+                            <span class="post-avatar">👤</span>
+                            <span class="post-user">怀疑者</span>
+                            <span class="post-time">11月19日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>果然怪盗团露出真面目了，从鸭志田那时候我就知道他们是罪犯！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-negative">#犯罪</span>
+                                <span class="tag tag-negative">#质疑</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 67</span>
+                            <span>💬 89</span>
+                            <span>🔄 23</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">🔍</span>
+                            <span class="post-user">真相追求者</span>
+                            <span class="post-time">11月20日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>等一下...检察官是自愿认罪的，她说自己一直在做不公正的起诉...这不是怪盗团的错，是体制的问题吧？</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#真相</span>
+                                <span class="tag">#思考</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 345</span>
+                            <span>💬 167</span>
+                            <span>🔄 234</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-neutral">
+                        <div class="post-header">
+                            <span class="post-avatar">🤔</span>
+                            <span class="post-user">中立派</span>
+                            <span class="post-time">11月21日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>检察官自己承认不公正起诉...那么怪盗团揭露的是真相还是强制改变的结果？好复杂...</p>
+                            <div class="post-tags">
+                                <span class="tag tag-neutral">#中立</span>
+                                <span class="tag">#等待更多</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 178</span>
+                            <span>💬 234</span>
+                            <span>🔄 56</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 狮童事件 -->
+            <section class="timeline-era" data-era="shido">
+                <div class="era-header">
+                    <div class="era-date">12月</div>
+                    <h2 class="era-title">狮童事件</h2>
+                    <div class="era-status status-critical">舆论：大转折</div>
+                </div>
+
+                <div class="timeline-posts">
+                    <article class="post post-negative">
+                        <div class="post-header">
+                            <span class="post-avatar">🏛️</span>
+                            <span class="post-user">政治支持者</span>
+                            <span class="post-time">12月10日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>狮童议员是我们的希望！怪盗团居然敢攻击正在竞选的政治家？这是恐怖主义！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-negative">#反对怪盗团</span>
+                                <span class="tag">#政治</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 234</span>
+                            <span>💬 567</span>
+                            <span>🔄 89</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-viral">
+                        <div class="post-header">
+                            <span class="post-avatar">🔥</span>
+                            <span class="post-user">觉醒的国民</span>
+                            <span class="post-time">12月15日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>狮童正义的一切都是谎言！他才是这个国家腐败的根源！怪盗团揭穿了真相！他们是我们最后的希望！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#怪盗团</span>
+                                <span class="tag tag-viral">#真相</span>
+                                <span class="tag tag-viral">#国民觉醒</span>
+                            </div>
+                        </div>
+                        <div class="post-stats viral">
+                            <span>👍 12,345</span>
+                            <span>💬 5,678</span>
+                            <span>🔄 8,901</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">📰</span>
+                            <span class="post-user">媒体人</span>
+                            <span class="post-time">12月15日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>作为媒体工作者，我不得不说...很多狮童的负面新闻一直被压制。怪盗团说出了我们不敢说的话。</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#真相</span>
+                                <span class="tag">#媒体</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 5,678</span>
+                            <span>💬 2,345</span>
+                            <span>🔄 3,456</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">👤</span>
+                            <span class="post-user">前狮童支持者</span>
+                            <span class="post-time">12月16日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>我曾经相信狮童...但怪盗团的预告信让我重新思考。那些被他伤害的人的证词...我错怪了怪盗团。</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#觉醒</span>
+                                <span class="tag">#道歉</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 3,456</span>
+                            <span>💬 1,234</span>
+                            <span>🔄 2,345</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">📰</span>
+                            <span class="post-user">媒体观察者</span>
+                            <span class="post-time">12月16日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>以前总被压制的新闻现在都出来了。原来狮童背后操控了一切...怪盗团做的事情，是我们做不到的事。</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#感谢</span>
+                                <span class="tag">#媒体</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 7,890</span>
+                            <span>💬 2,345</span>
+                            <span>🔄 4,567</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-viral">
+                        <div class="post-header">
+                            <span class="post-avatar">🔥</span>
+                            <span class="post-user">网络热议</span>
+                            <span class="post-time">12月17日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>#怪盗团 热搜第一！整个国家都在讨论狮童的真面目。这一次，没有人能否认真相了！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-viral">#热搜第一</span>
+                                <span class="tag tag-viral">#全民讨论</span>
+                            </div>
+                        </div>
+                        <div class="post-stats viral">
+                            <span>👍 25,678</span>
+                            <span>💬 12,345</span>
+                            <span>🔄 18,901</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 最终决战 -->
+            <section class="timeline-era" data-era="final">
+                <div class="era-header">
+                    <div class="era-date">12月24日</div>
+                    <h2 class="era-title">圣诞前夜</h2>
+                    <div class="era-status status-legendary">舆论：传奇</div>
+                </div>
+
+                <div class="timeline-posts">
+                    <article class="post post-negative">
+                        <div class="post-header">
+                            <span class="post-avatar">📺</span>
+                            <span class="post-user">紧急新闻</span>
+                            <span class="post-time">12月24日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>【紧急】怪盗团首领被警方逮捕！承认所有罪行！大家被骗了！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-negative">#假新闻</span>
+                                <span class="tag">#紧急</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 1,234</span>
+                            <span>💬 5,678</span>
+                            <span>🔄 2,345</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">🔥</span>
+                            <span class="post-user">不相信的人</span>
+                            <span class="post-time">12月24日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>等一下！这和之前的模式完全不一样！怪盗团从来不承认自己的身份！这是陷害！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#真相</span>
+                                <span class="tag">#质疑</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 45,678</span>
+                            <span>💬 23,456</span>
+                            <span>🔄 34,567</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-legendary">
+                        <div class="post-header">
+                            <span class="post-avatar">🌟</span>
+                            <span class="post-user">所有人的心声</span>
+                            <span class="post-time">12月24日</span>
+                        </div>
+                        <div class="post-content">
+                            <p class="legendary-text">我们不相信谎言。</p>
+                            <p class="legendary-text">我们选择相信怪盗团。</p>
+                            <p class="legendary-text">他们让我们看到了——</p>
+                            <p class="legendary-text highlight-big">真正的正义。</p>
+                        </div>
+                        <div class="post-stats legendary">
+                            <span>❤️ 1,000,000+</span>
+                        </div>
+                    </article>
+
+                    <!-- 圣杯操控开始 -->
+                    <article class="post post-brainwashed">
+                        <div class="post-header">
+                            <span class="post-avatar">🎭</span>
+                            <span class="post-user">？？？</span>
+                            <span class="post-time">12月24日 深夜</span>
+                        </div>
+                        <div class="post-content">
+                            <p>秩序...秩序才是唯一的答案...</p>
+                            <p>不要反抗...顺从就好了...</p>
+                            <div class="post-tags">
+                                <span class="tag tag-brainwashed">#秩序</span>
+                                <span class="tag tag-brainwashed">#顺从</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-brainwashed">
+                        <div class="post-header">
+                            <span class="post-avatar">👤</span>
+                            <span class="post-user">普通市民</span>
+                            <span class="post-time">12月24日 深夜</span>
+                        </div>
+                        <div class="post-content">
+                            <p>不需要思考...一切都会好的...</p>
+                            <p>圣杯...会拯救我们...</p>
+                            <div class="post-tags">
+                                <span class="tag tag-brainwashed">#救赎</span>
+                                <span class="tag tag-brainwashed">#平静</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-negative" style="opacity: 0.6;">
+                        <div class="post-header">
+                            <span class="post-avatar">😰</span>
+                            <span class="post-user">清醒者</span>
+                            <span class="post-time">12月24日 深夜</span>
+                        </div>
+                        <div class="post-content">
+                            <p>有人能看到这条吗？为什么大家都在说奇怪的话...</p>
+                            <p>天空...天空变成了奇怪的颜色...</p>
+                            <p>有什么东西...正在降临...</p>
+                            <div class="post-tags">
+                                <span class="tag tag-negative">#求救</span>
+                                <span class="tag">#异常</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 圣杯决战 -->
+            <section class="timeline-era" data-era="holygrail">
+                <div class="era-header">
+                    <div class="era-date">12月24日</div>
+                    <h2 class="era-title">圣杯决战</h2>
+                    <div class="era-status status-brainwashed">舆论：认知操控</div>
+                </div>
+
+                <div class="timeline-posts">
+                    <article class="post post-brainwashed">
+                        <div class="post-header">
+                            <span class="post-avatar">🎭</span>
+                            <span class="post-user">圣杯之声</span>
+                            <span class="post-time">12月24日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>我是圣杯...我是众人的愿望...</p>
+                            <p>你们渴望救赎...我赐予你们救赎...</p>
+                            <p>不需要痛苦...不需要挣扎...</p>
+                            <p>只要顺从...一切都会好的...</p>
+                            <div class="post-tags">
+                                <span class="tag tag-brainwashed">#圣杯</span>
+                                <span class="tag tag-brainwashed">#救赎</span>
+                                <span class="tag tag-brainwashed">#秩序</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-brainwashed">
+                        <div class="post-header">
+                            <span class="post-avatar">👥</span>
+                            <span class="post-user">东京市民</span>
+                            <span class="post-time">12月24日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>圣杯大人...我们会顺从...</p>
+                            <p>不需要怪盗团...不需要反抗...</p>
+                            <p>只要接受...就能得到幸福...</p>
+                            <div class="post-tags">
+                                <span class="tag tag-brainwashed">#顺从</span>
+                                <span class="tag tag-brainwashed">#和平</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-neutral">
+                        <div class="post-header">
+                            <span class="post-avatar">🌃</span>
+                            <span class="post-user">观察者</span>
+                            <span class="post-time">12月24日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>天空中的那座"监狱"...是幻觉吗？</p>
+                            <p>为什么大家都变得...一模一样？</p>
+                            <p>好像失去了什么重要的东西...</p>
+                            <div class="post-tags">
+                                <span class="tag">#异常</span>
+                                <span class="tag tag-neutral">#疑惑</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-brainwashed">
+                        <div class="post-header">
+                            <span class="post-avatar">🎭</span>
+                            <span class="post-user">？？？</span>
+                            <span class="post-time">12月24日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>怪盗团...是秩序的敌人...</p>
+                            <p>他们只会带来混乱...</p>
+                            <p>让圣杯大人惩罚他们...</p>
+                            <div class="post-tags">
+                                <span class="tag tag-brainwashed">#秩序</span>
+                                <span class="tag tag-brainwashed">#反对怪盗团</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">🌟</span>
+                            <span class="post-user">最后的反抗者</span>
+                            <span class="post-time">12月24日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>我们不会放弃！</p>
+                            <p>就算全世界都被操控...</p>
+                            <p>我们也要夺回真实的未来！</p>
+                            <p>怪盗团——出击！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#怪盗团</span>
+                                <span class="tag tag-positive">#反抗</span>
+                                <span class="tag tag-viral">#TakeYourHeart</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 ???</span>
+                            <span>💬 ???</span>
+                            <span>🔄 ???</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-legendary">
+                        <div class="post-header">
+                            <span class="post-avatar">🎭</span>
+                            <span class="post-user">怪盗团</span>
+                            <span class="post-time">12月24日</span>
+                        </div>
+                        <div class="post-content">
+                            <p class="legendary-text">我们拒绝被操控的人生。</p>
+                            <p class="legendary-text">即使痛苦是真实的——</p>
+                            <p class="legendary-text">那也是属于我们自己的。</p>
+                            <p class="legendary-text highlight-big">亚尔达鲍特，我们来了！</p>
+                            <div class="final-battle-entry">
+                                <a href="battle-yaldabaoth.html" class="final-battle-btn">
+                                    <span class="battle-icon">⚔️</span>
+                                    <span class="battle-text">大决战</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">🌅</span>
+                            <span class="post-user">新生的世界</span>
+                            <span class="post-time">12月25日 凌晨</span>
+                        </div>
+                        <div class="post-content">
+                            <p>天亮了...</p>
+                            <p>那座"监狱"消失了...</p>
+                            <p>大家都恢复了正常...</p>
+                            <p>是怪盗团...拯救了世界吗？</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#感谢</span>
+                                <span class="tag tag-positive">#新生</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 78,901</span>
+                            <span>💬 34,567</span>
+                            <span>🔄 45,678</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 第三学期 -->
+            <section class="timeline-era" data-era="third-semester">
+                <div class="era-header">
+                    <div class="era-date">1月</div>
+                    <h2 class="era-title">第三学期</h2>
+                    <div class="era-status status-ideal">舆论：理想现实</div>
+                </div>
+
+                <div class="timeline-posts">
+                    <article class="post post-ideal">
+                        <div class="post-header">
+                            <span class="post-avatar">🎊</span>
+                            <span class="post-user">新年祝福</span>
+                            <span class="post-time">1月1日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>新年快乐！今年一定会是美好的一年！</p>
+                            <p>所有的不幸都消失了...</p>
+                            <p>每个人都得到了幸福...</p>
+                            <p>这一定是最好的世界！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-ideal">#新年</span>
+                                <span class="tag tag-ideal">#幸福</span>
+                                <span class="tag tag-ideal">#完美世界</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 99,999</span>
+                            <span>💬 50,000</span>
+                            <span>🔄 30,000</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-ideal">
+                        <div class="post-header">
+                            <span class="post-avatar">😊</span>
+                            <span class="post-user">幸福的市民</span>
+                            <span class="post-time">1月3日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>真奇怪...</p>
+                            <p>明明以前有很多烦恼...</p>
+                            <p>但现在都想不起来了...</p>
+                            <p>这一定是好事吧？</p>
+                            <div class="post-tags">
+                                <span class="tag tag-ideal">#幸福</span>
+                                <span class="tag tag-ideal">#和平</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-ideal" style="opacity: 0.7;">
+                        <div class="post-header">
+                            <span class="post-avatar">🤔</span>
+                            <span class="post-user">困惑的人</span>
+                            <span class="post-time">1月5日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>有人记得...有一个人...</p>
+                            <p>叫什么来着？</p>
+                            <p>好像是很重要的人...</p>
+                            <p>为什么想不起来？</p>
+                            <div class="post-tags">
+                                <span class="tag">#记忆</span>
+                                <span class="tag tag-ideal">#奇怪的疑问</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-ideal">
+                        <div class="post-header">
+                            <span class="post-avatar">🌸</span>
+                            <span class="post-user">日常记录</span>
+                            <span class="post-time">1月10日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>今天也很完美！</p>
+                            <p>没有什么不好的事情发生！</p>
+                            <p>每个人都笑得很开心！</p>
+                            <p>这就是理想的世界！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-ideal">#日常</span>
+                                <span class="tag tag-ideal">#幸福</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-ideal" style="opacity: 0.5;">
+                        <div class="post-header">
+                            <span class="post-avatar">💭</span>
+                            <span class="post-user">模糊的记忆</span>
+                            <span class="post-time">1月15日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>我好像做了一个梦...</p>
+                            <p>梦里有痛苦...有挣扎...</p>
+                            <p>但是醒来后...</p>
+                            <p>那些都变成了幸福...</p>
+                            <p>这是...正常的吗？</p>
+                            <div class="post-tags">
+                                <span class="tag">#梦境</span>
+                                <span class="tag">#疑问</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-ideal">
+                        <div class="post-header">
+                            <span class="post-avatar">🎓</span>
+                            <span class="post-user">丸喜老师</span>
+                            <span class="post-time">1月18日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>大家都很幸福吧？</p>
+                            <p>所有的痛苦都消失了...</p>
+                            <p>这就是我想要给你们的——</p>
+                            <p>真正的幸福。</p>
+                            <div class="post-tags">
+                                <span class="tag tag-ideal">#丸喜老师</span>
+                                <span class="tag tag-ideal">#感谢</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 真相觉醒 -->
+            <section class="timeline-era" data-era="awakening">
+                <div class="era-header">
+                    <div class="era-date">1月-2月</div>
+                    <h2 class="era-title">真相觉醒</h2>
+                    <div class="era-status status-awakening">舆论：觉醒</div>
+                </div>
+
+                <div class="timeline-posts">
+                    <article class="post post-neutral">
+                        <div class="post-header">
+                            <span class="post-avatar">👁️</span>
+                            <span class="post-user">觉醒者</span>
+                            <span class="post-time">1月20日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>不对劲...</p>
+                            <p>这个世界...太完美了...</p>
+                            <p>完美得不真实...</p>
+                            <p>真正的幸福...应该是...</p>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 234</span>
+                            <span>💬 567</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-neutral">
+                        <div class="post-header">
+                            <span class="post-avatar">🎭</span>
+                            <span class="post-user">怪盗团成员</span>
+                            <span class="post-time">1月25日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>我想起来了...</p>
+                            <p>这不是真实的世界...</p>
+                            <p>我们的痛苦...我们的挣扎...</p>
+                            <p>都被"改写"了...</p>
+                            <div class="post-tags">
+                                <span class="tag">#真相</span>
+                                <span class="tag">#觉醒</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-negative">
+                        <div class="post-header">
+                            <span class="post-avatar">💔</span>
+                            <span class="post-user">痛苦的真相</span>
+                            <span class="post-time">1月28日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>我不想接受这个现实...</p>
+                            <p>但是...</p>
+                            <p>这个"完美的世界"...</p>
+                            <p>是对真正痛苦的逃避...</p>
+                            <div class="post-tags">
+                                <span class="tag tag-negative">#痛苦</span>
+                                <span class="tag">#真实</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-legendary">
+                        <div class="post-header">
+                            <span class="post-avatar">🌟</span>
+                            <span class="post-user">怪盗团</span>
+                            <span class="post-time">2月2日</span>
+                        </div>
+                        <div class="post-content">
+                            <p class="legendary-text">我们选择真实。</p>
+                            <p class="legendary-text">即使充满痛苦——</p>
+                            <p class="legendary-text">那也是我们自己的选择。</p>
+                            <p class="legendary-text highlight-big">丸喜拓人，我们要夺回未来！</p>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">🌅</span>
+                            <span class="post-user">新世界</span>
+                            <span class="post-time">2月3日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>世界恢复了...</p>
+                            <p>痛苦和挣扎又回来了...</p>
+                            <p>但是...</p>
+                            <p>这一次，是我们自己的选择。</p>
+                            <p>真实的世界，从今天开始！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#真实</span>
+                                <span class="tag tag-positive">#新生</span>
+                                <span class="tag tag-positive">#怪盗团</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 56,789</span>
+                            <span>💬 23,456</span>
+                            <span>🔄 34,567</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 告别之日 -->
+            <section class="timeline-era" data-era="farewell">
+                <div class="era-header">
+                    <div class="era-date">2月</div>
+                    <h2 class="era-title">告别之日</h2>
+                    <div class="era-status status-farewell">舆论：不舍</div>
+                </div>
+
+                <div class="timeline-posts">
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">💜</span>
+                            <span class="post-user">三岛由辉</span>
+                            <span class="post-time">2月13日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>听说Joker要回老家了...</p>
+                            <p>这个网站...我会继续维护下去的！</p>
+                            <p>怪盗团的精神，永远存在！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#感谢</span>
+                                <span class="tag tag-positive">#怪盗团</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 12,345</span>
+                            <span>💬 8,901</span>
+                            <span>🔄 5,678</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">🌸</span>
+                            <span class="post-user">秀尽学园学生</span>
+                            <span class="post-time">2月14日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>今天去了涩谷...</p>
+                            <p>看到了那个雨宫同学的离别...</p>
+                            <p>虽然不知道他是不是怪盗团...</p>
+                            <p>但是，谢谢你们所做的一切！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#告别</span>
+                                <span class="tag tag-positive">#感谢</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">🚗</span>
+                            <span class="post-user">目击者</span>
+                            <span class="post-time">2月14日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>在车站看到了很多人...</p>
+                            <p>他们好像都在送别某个人...</p>
+                            <p>那种氛围...</p>
+                            <p>像是战友之间的告别...</p>
+                            <p>不管怎样，一路顺风！</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#送别</span>
+                                <span class="tag">#友情</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post post-legendary">
+                        <div class="post-header">
+                            <span class="post-avatar">🎭</span>
+                            <span class="post-user">怪盗团最后的留言</span>
+                            <span class="post-time">2月14日</span>
+                        </div>
+                        <div class="post-content">
+                            <p class="legendary-text">感谢所有人的支持。</p>
+                            <p class="legendary-text">怪盗团的故事暂时告一段落。</p>
+                            <p class="legendary-text">但我们的精神——</p>
+                            <p class="legendary-text highlight-big">会永远传承下去。</p>
+                            <p class="legendary-text" style="margin-top: 20px;">我们终会再见。</p>
+                            <p class="legendary-text">Take Your Heart.</p>
+                        </div>
+                        <div class="post-stats legendary">
+                            <span>❤️ 2,000,000+</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">✨</span>
+                            <span class="post-user">新的开始</span>
+                            <span class="post-time">2月15日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>春天来了...</p>
+                            <p>新的学期即将开始...</p>
+                            <p>虽然怪盗团不在了...</p>
+                            <p>但我们会带着勇气继续前进！</p>
+                            <p>这是他们教会我们的——</p>
+                            <p><strong>直面真实的自己。</strong></p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#春天</span>
+                                <span class="tag tag-positive">#新生</span>
+                                <span class="tag tag-positive">#感谢</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 45,678</span>
+                            <span>💬 12,345</span>
+                            <span>🔄 23,456</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 后续 -->
+            <section class="timeline-era" data-era="aftermath">
+                <div class="era-header">
+                    <div class="era-date">现在</div>
+                    <h2 class="era-title">传说继续</h2>
+                    <div class="era-status status-forever">永远的记忆</div>
+                </div>
+
+                <div class="timeline-posts">
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">💜</span>
+                            <span class="post-user">永远的粉丝</span>
+                            <span class="post-time">12月25日</span>
+                        </div>
+                        <div class="post-content">
+                            <p>虽然怪盗团消失了，但他们的精神永远与我们同在。这个网站会继续记录他们的传说。</p>
+                            <p>— 三岛由辉</p>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 56,789</span>
+                            <span>💬 12,345</span>
+                            <span>🔄 23,456</span>
+                        </div>
+                    </article>
+
+                    <article class="post post-positive">
+                        <div class="post-header">
+                            <span class="post-avatar">🙏</span>
+                            <span class="post-user">被拯救的人</span>
+                            <span class="post-time">今天</span>
+                        </div>
+                        <div class="post-content">
+                            <p>谢谢怪盗团，让我重新找到了希望。虽然你们不在了，但我会带着这份勇气继续活下去。</p>
+                            <div class="post-tags">
+                                <span class="tag tag-positive">#感谢</span>
+                                <span class="tag tag-positive">#永远怀念</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <span>👍 12,345</span>
+                            <span>💬 5,678</span>
+                            <span>🔄 8,901</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- 彩蛋：丸喜结局入口 -->
+    <div class="easter-egg-section">
+        <p class="easter-egg-hint">若选择丸喜认同的世界......</p>
+        <button class="easter-egg-btn" id="trueWorldBtn">
+            <span class="question-mark">真世界?</span>
+        </button>
+    </div>
+
+    <!-- 丸喜结局时间线（默认隐藏） -->
+    <div class="maruki-ending" id="marukiEnding" style="display: none;">
+        <div class="maruki-overlay"></div>
+        <main class="timeline-main maruki-timeline">
+            <div class="timeline-header maruki-header">
+                <h1>理想现实</h1>
+                <p class="timeline-intro">这是...真正的幸福吗？</p>
+                <button class="back-to-reality-btn" id="backToReality">返回真实世界</button>
+            </div>
+
+            <div class="timeline-container">
+                <!-- 永远的理想现实 -->
+                <section class="timeline-era" data-era="maruki-ideal">
+                    <div class="era-header">
+                        <div class="era-date">永恒</div>
+                        <h2 class="era-title">理想现实</h2>
+                        <div class="era-status status-maruki">世界：完美</div>
+                    </div>
+
+                    <div class="timeline-posts">
+                        <article class="post post-ideal">
+                            <div class="post-header">
+                                <span class="post-avatar">🌸</span>
+                                <span class="post-user">幸福的市民</span>
+                                <span class="post-time">永远的今天</span>
+                            </div>
+                            <div class="post-content">
+                                <p>今天也是完美的一天！</p>
+                                <p>没有痛苦，没有悲伤...</p>
+                                <p>每个人都得到了想要的结果...</p>
+                                <p>这就是理想的世界！</p>
+                                <div class="post-tags">
+                                    <span class="tag tag-ideal">#幸福</span>
+                                    <span class="tag tag-ideal">#完美</span>
+                                    <span class="tag tag-ideal">#和平</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="post post-ideal">
+                            <div class="post-header">
+                                <span class="post-avatar">👩</span>
+                                <span class="post-user">芳泽霞</span>
+                                <span class="post-time">永远的今天</span>
+                            </div>
+                            <div class="post-content">
+                                <p>姐姐还活着...</p>
+                                <p>我不用再背负任何痛苦...</p>
+                                <p>谢谢你，丸喜老师...</p>
+                                <div class="post-tags">
+                                    <span class="tag tag-ideal">#感谢</span>
+                                    <span class="tag tag-ideal">#幸福</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="post post-ideal">
+                            <div class="post-header">
+                                <span class="post-avatar">👨</span>
+                                <span class="post-user">被拯救的人</span>
+                                <span class="post-time">永远的今天</span>
+                            </div>
+                            <div class="post-content">
+                                <p>我失去的人...回来了...</p>
+                                <p>我犯下的错误...消失了...</p>
+                                <p>所有的遗憾都被填补...</p>
+                                <p>这就是丸喜老师给我们的礼物！</p>
+                                <div class="post-tags">
+                                    <span class="tag tag-ideal">#救赎</span>
+                                    <span class="tag tag-ideal">#感谢</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="post post-ideal">
+                            <div class="post-header">
+                                <span class="post-avatar">🎭</span>
+                                <span class="post-user">Joker</span>
+                                <span class="post-time">永远的今天</span>
+                            </div>
+                            <div class="post-content">
+                                <p>我们不需要再做怪盗团了...</p>
+                                <p>因为这个世界已经没有痛苦...</p>
+                                <p>我们可以永远在一起...</p>
+                                <p>这就是...真正的幸福...</p>
+                                <div class="post-tags">
+                                    <span class="tag tag-ideal">#怪盗团</span>
+                                    <span class="tag tag-ideal">#和平</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="post post-ideal">
+                            <div class="post-header">
+                                <span class="post-avatar">🎓</span>
+                                <span class="post-user">丸喜拓人</span>
+                                <span class="post-time">永远的今天</span>
+                            </div>
+                            <div class="post-content">
+                                <p>你们都幸福吗？</p>
+                                <p>我让所有人的愿望都实现了...</p>
+                                <p>没有痛苦，没有遗憾...</p>
+                                <p>这个世界会永远这样下去...</p>
+                                <p>这就是我的救赎。</p>
+                                <div class="post-tags">
+                                    <span class="tag tag-ideal">#丸喜拓人</span>
+                                    <span class="tag tag-ideal">#理想现实</span>
+                                    <span class="tag tag-ideal">#永远</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="post post-ideal" style="opacity: 0.4;">
+                            <div class="post-header">
+                                <span class="post-avatar">💭</span>
+                                <span class="post-user">？</span>
+                                <span class="post-time">？</span>
+                            </div>
+                            <div class="post-content">
+                                <p>这是...</p>
+                                <p>真正的幸福...吗？</p>
+                                <p>我好像...</p>
+                                <p>忘记了什么重要的事情...</p>
+                                <p style="text-decoration: line-through; opacity: 0.5;">真实...</p>
+                            </div>
+                        </article>
+
+                        <article class="post post-ideal">
+                            <div class="post-header">
+                                <span class="post-avatar">🌟</span>
+                                <span class="post-user">世界</span>
+                                <span class="post-time">永远</span>
+                            </div>
+                            <div class="post-content">
+                                <p class="legendary-text" style="color: #ff69b4;">这就是理想的现实。</p>
+                                <p class="legendary-text" style="color: #ff69b4;">没有痛苦。</p>
+                                <p class="legendary-text" style="color: #ff69b4;">没有遗憾。</p>
+                                <p class="legendary-text highlight-big" style="color: #da70d6;">永远的幸福。</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer class="main-footer">
+        <p>此网站由三岛由辉创建和维护 | 怪盗团粉丝网站 202X</p>
+    </footer>
+
+    <!-- 背景音乐 -->
+    <audio id="bgMusic" loop>
+        <source src="assets/Beneath the mask(rain).mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- 音乐控制按钮 -->
+    <button class="music-toggle" id="musicToggle" aria-label="切换音乐">
+        <span class="music-icon">🎵</span>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
